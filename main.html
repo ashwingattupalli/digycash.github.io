@@ -1,0 +1,245 @@
+7<!DOCTYPE html>
+<html>
+<title>digycash homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <img src="digycash.jpg" style="width:100%">
+  <a class="w3-padding-large w3-black" href="#">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#about">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  
+  <a class="w3-padding-large w3-hover-black" href="#contact">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+
+<a class="w3-padding-large w3-hover-black" href="#plans">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>MY-PLANS</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <ul class="w3-navbar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <li class="w3-left" style="width:25% !important"><a href="#">HOME</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#about">ABOUT</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#photos">PHOTOS</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#contact">CONTACT</a></li>
+<li class="w3-left" style="width:25% !important"><a href="#contact">RECHARGE</a></li>
+  </ul>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><img src="digycash.jpg" ></h1>
+    <h2 class="w3-jumbo"><span class="w3-hide-small"></span>DigyCash.</h2>
+    <p>simple,elegant,effiecient.</p>
+    <img class="mySlides" src="ashwin.jpg">
+    <img class="mySlides" src="img2.jpg">
+    <img class="mySlides" src="IMAGE.jpg">
+      <img class="mySlides" src="img1.jpg">
+    <img class="mySlides" src="img3.jpg">
+<script>   
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+
+</script>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About us</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+    <img src="Glabs.jpg">
+    <article>
+    welcome to digycash,
+               we are here  to proudly present you our first ever money sharing app digy cash.
+
+
+we at G@labs support full innovation and  creative thoughts  on basic strategies in order to support needs of growing trends.
+Breifly our app has an embedded security system which allows peer to peer money transfer only on fingerprint authorisation.we offer our intensive support to protect users information
+from breaches,hacks,spams and provide a secure way where users can pay their bills instantly over this app.
+
+About app,
+          we have seen many such money sharing apps lacking basic features of multiple money payments through a secure,fast,simple gateways.
+          here to operate over our app you need to follow some instructions
+     1.please register with us to start your digy-transactions.
+    2.once you have registered with us successfully you will recieve a conformation from our developers,with the apk file
+    3.where you need to activate your account,by recharging with any of the plans located below.(note that on pre-limnary basis we accept only card transactions through paypal)
+4.for pro version plans you need to be waiting for futher upgrades .
+5.once you have registered and recharged your account you will recieve digi-cons which hold the value of your money.
+6.when you  opt for money transactions digycash will locate the people near you (identifed by specific ids)
+7.choose any one of the peer to transfer money and select transfer.
+8.once you are connected succesfully you will be authorised for fingerprint(note that this should match with the one you submit during registration).
+9.once the finger print matches you will be allowed for transfer and the digicons will be deducted.
+
+
+we are happy to here responses from users,and some suggestions which they would like to include before proceed for deploying app.
+please note that the registration link is embedded as pre-order link and users are requested to register there.
+
+
+thanks,
+G.Ashwin
+Gattupalli labs.
+</article>
+    </p>
+</div>
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="plans">
+<h3 class="w3-padding-16 w3-text-light-grey">Digy-plans</h3>
+<div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16 w3-hover-black">111/- ultra plan</li>
+          <li class="w3-padding-16 w3-hover-black">60/-  superior plan</li>
+          <li class="w3-padding-16 w3-hover-black">40/-  maximum plan</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-btn w3-white w3-padding-large w3-hover-black">Sign Up for more news</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">111/- ultra plan</li>
+          <li class="w3-padding-16">60/-  superior plan</li>
+          <li class="w3-padding-16">40/-  maximum plan</li>
+          <li class="w3-padding-16">Endless Support from developer</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-btn w3-white w3-padding-large w3-hover-black">Sign Up for more updates</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+</div>
+<div class="styler">  
+<h3 class="w3-padding-16 w3-text-light-grey">Release countdown</h3>  
+<p id="demo"></p>
+
+<script>
+var countDownDate = new Date("May 14, 2017 12:12:12").getTime();
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = days + "D"+" " + hours + "Hrs "
+    + minutes + "m " + seconds + "s "; 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+</div>
+
+<style>
+.styler {
+  text-align: center;
+  font-size: 40px;
+}
+</style>
+
+
+    
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-btn w3-light-grey w3-padding-large w3-section w3-hover-grey">
+      <a href="https://goo.gl/forms/CN8GiYNYcDQfC1Zz1">PreoderNow</a>
+    </button>
+    
+    
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Hyderabad,Telangana(IND)</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone:93948594038</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <a href="https://goo.gl/forms/BO26jaC5z2qaYYAs2">Contact Me</a>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+    <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
